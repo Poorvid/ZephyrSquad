@@ -53,7 +53,7 @@ set "$appendDateTimeInFolderName=true"
 set "$assigneeUser=557058:5eeb37164784510aca76ca61"
 
 :: Fully-qualitified name of the test result file
-set "$resultPath=@\"/target/surefire-reports/testng-results.xml"
+set "$resultPath=@\"{workspace}/target/surefire-reports/testng-results.xml"
 
 :: =========================================
 ::  Create an automation task, run it, send test results to Zephyr.
